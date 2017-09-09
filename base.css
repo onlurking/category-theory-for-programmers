@@ -1,0 +1,165 @@
+@charset "utf-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+
+body {
+    margin: 5%;
+    font-size: medium;
+    hyphens: auto;
+    -epub-hyphens: auto;
+}
+
+code {
+    font-family: monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-variant: small-caps;
+    hyphens: none;
+    -epub-hyphens: none;
+    page-break-after: avoid;
+    text-align: center;
+    margin: 3em 0;
+}
+
+blockquote+p,
+blockquote p:first-child,
+h2+p,
+h3+p,
+header+p,
+hr+p>ol>li>p:first-child {
+    text-indent: 0;
+}
+
+ol.toc {
+    padding: 0;
+    margin-left: 1em;
+}
+
+ol.toc li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid;
+    height: 0;
+    margin: 1.5em auto;
+    width: 25%;
+}
+
+cite {
+    font-style: normal;
+}
+
+abbr {
+    border: none;
+    white-space: nowrap;
+}
+
+blockquote cite {
+    display: block;
+    font-style: italic;
+    text-align: right;
+}
+
+blockquote cite i {
+    font-style: normal;
+}
+
+a {
+    vertical-align: super;
+    hyphens: none;
+    -epub-hyphens: none;
+}
+
+blockquote p {
+    font-style: italic;
+    text-align: left;
+    text-indent: 0;
+}
+
+blockquote p span {
+    display: block;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+blockquote br {
+    display: none;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 3.2em;
+}
+
+.title h1 {
+    margin-bottom: 0px;
+    margin-top: 3.2em;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+pre,
+tt,
+code,
+samp,
+kbd {
+    font-family: "Courier New", Courier, monospace;
+    word-wrap: break-word;
+}
+
+pre {
+    font-size: 0.8em;
+    line-height: 1.2em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    white-space: pre-wrap;
+    display: block;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
+    box-sizing: border-box;
+    border: white 0.5em solid;
+    max-width: 80%;
+    max-height: 80%;
+
+}
+
+p img {
+    border-radius: 0;
+    border: none;
+}
+
+sup {
+    vertical-align: super;
+    font-size: 0.5em;
+    line-height: 0.5em;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: 0.5em;
+    line-height: 0.5em;
+}
