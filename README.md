@@ -2,7 +2,7 @@
 
 This is an e-book version of Bartosz Milewski's [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) work.
 
-**You can download the latest epub build** [**here**](https://github.com/onlurking/category-theory-for-programmers/releases/download/0.1-alpha/category-theory-for-programmers.epub).
+**You can download the latest epub build** [**here**](https://github.com/onlurking/category-theory-for-programmers/releases/download/0.3-alpha/category-theory-for-programmers.epub).
 
 ## Credits
 
