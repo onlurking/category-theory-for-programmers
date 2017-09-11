@@ -23,7 +23,7 @@ h6 {
     -epub-hyphens: none;
     page-break-after: avoid;
     text-align: center;
-    margin: 3em 0;
+    margin: 1.5em 0;
 }
 
 blockquote+p,
@@ -74,7 +74,6 @@ blockquote cite i {
 }
 
 a {
-    vertical-align: super;
     hyphens: none;
     -epub-hyphens: none;
 }
@@ -97,18 +96,10 @@ blockquote br {
 
 h1 {
     font-size: 1.8em;
-    margin-bottom: 3.2em;
-}
-
-.title h1 {
-    margin-bottom: 0px;
-    margin-top: 3.2em;
 }
 
 h2 {
     font-size: 1.4em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
 }
 
 h3 {
@@ -125,7 +116,6 @@ kbd {
 }
 
 pre {
-    font-size: 0.8em;
     line-height: 1.2em;
     margin-left: 1em;
     margin-bottom: 1em;
@@ -144,7 +134,6 @@ img {
     border: white 0.5em solid;
     max-width: 80%;
     max-height: 80%;
-
 }
 
 p img {
@@ -154,12 +143,10 @@ p img {
 
 sup {
     vertical-align: super;
-    font-size: 0.5em;
     line-height: 0.5em;
 }
 
 sub {
     vertical-align: sub;
-    font-size: 0.5em;
     line-height: 0.5em;
 }
