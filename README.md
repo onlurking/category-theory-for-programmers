@@ -23,8 +23,8 @@ This is an e-book version of Bartosz Milewski's [Category Theory for Programmers
 
 - [x] Declarative Programming
 - [x] Limits and Colimits
-- [ ] Free Monoids
-- [ ] Representable Functors
+- [x] Free Monoids
+- [x] Representable Functors
 - [ ] The Yoneda Lemma
 - [ ] Yoneda Embedding
 
