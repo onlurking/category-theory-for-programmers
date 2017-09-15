@@ -4,7 +4,7 @@ TITLE = title.txt
 METADATA = metadata.xml
 STYLE = base.css
 LATEX = base.latex
-CHAPTERS = preface.md part_one/ch01.md part_one/ch02.md part_one/ch03.md part_one/ch04.md part_one/ch05.md part_one/ch06.md part_one/ch07.md part_one/ch08.md part_one/ch09.md part_one/ch10.md part_two/ch01.md part_two/ch02.md
+CHAPTERS = preface.md part_one/ch01.md part_one/ch02.md part_one/ch03.md part_one/ch04.md part_one/ch05.md part_one/ch06.md part_one/ch07.md part_one/ch08.md part_one/ch09.md part_one/ch10.md part_two/ch01.md part_two/ch02.md part_two/ch03.md part_two/ch04.md
 TOC = --toc --toc-depth=2
 COVER_IMAGE = images/beauvais_interior_supports.jpg
 LATEX_CLASS = report
@@ -24,7 +24,7 @@ pdf: $(BUILD)/pdf/$(BOOKNAME).pdf
 
 $(BUILD)/epub/$(BOOKNAME).epub: $(TITLE) $(CHAPTERS)
 	mkdir -p $(BUILD)/epub
-	pandoc $(TOC) -S --epub-metadata=$(METADATA) --epub-stylesheet=$(STYLE) --epub-cover-image=$(COVER_IMAGE) -o $@ $^
+	pandoc $(TOC) -S --epub-metadata=$(METADATA) --epub-stylesheet=$(STYLE) --highlight-style pygments --epub-cover-image=$(COVER_IMAGE) -o $@ $^
 
 $(BUILD)/html/$(BOOKNAME).html: $(CHAPTERS)
 	mkdir -p $(BUILD)/html
