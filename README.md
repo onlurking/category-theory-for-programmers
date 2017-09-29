@@ -25,8 +25,8 @@ This is an e-book version of Bartosz Milewski's [Category Theory for Programmers
 - [x] Limits and Colimits
 - [x] Free Monoids
 - [x] Representable Functors
-- [ ] The Yoneda Lemma
-- [ ] Yoneda Embedding
+- [x] The Yoneda Lemma
+- [x] Yoneda Embedding
 
 ### Part Three
 
