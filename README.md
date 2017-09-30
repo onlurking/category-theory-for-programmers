@@ -30,12 +30,12 @@ This is an e-book version of Bartosz Milewski's [Category Theory for Programmers
 
 ### Part Three
 
-- [ ] It’s All About Morphisms
-- [ ] Adjunctions
-- [ ] Free/Forgetful Adjunctions
-- [ ] Monads: Programmer’s Definition
-- [ ] Monads and Effects
-- [ ] Monads Categorically
+- [x] It’s All About Morphisms
+- [x] Adjunctions
+- [x] Free/Forgetful Adjunctions
+- [x] Monads: Programmer’s Definition
+- [x] Monads and Effects
+- [x] Monads Categorically
 - [ ] Comonads
 - [ ] F-Algebras
 - [ ] Algebras for Monads

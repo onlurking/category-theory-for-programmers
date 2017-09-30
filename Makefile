@@ -4,7 +4,7 @@ TITLE = title.txt
 METADATA = metadata.xml
 STYLE = base.css
 LATEX = base.latex
-CHAPTERS = preface.md part_one/ch01.md part_one/ch02.md part_one/ch03.md part_one/ch04.md part_one/ch05.md part_one/ch06.md part_one/ch07.md part_one/ch08.md part_one/ch09.md part_one/ch10.md part_two/ch01.md part_two/ch02.md part_two/ch03.md part_two/ch04.md part_two/ch05.md part_two/ch06.md
+CHAPTERS = preface.md part_one/ch01.md part_one/ch02.md part_one/ch03.md part_one/ch04.md part_one/ch05.md part_one/ch06.md part_one/ch07.md part_one/ch08.md part_one/ch09.md part_one/ch10.md part_two/ch01.md part_two/ch02.md part_two/ch03.md part_two/ch04.md part_two/ch05.md part_two/ch06.md part_three/ch01.md part_three/ch02.md part_three/ch03.md part_three/ch04.md part_three/ch05.md part_three/ch06.md
 TOC = --toc --toc-depth=2
 COVER_IMAGE = images/beauvais_interior_supports.jpg
 LATEX_CLASS = report
