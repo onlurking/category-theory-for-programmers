@@ -2,7 +2,7 @@
 
 This is an e-book version of Bartosz Milewski's [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) work.
 
-**You can download the latest epub build** [**here**](https://github.com/onlurking/category-theory-for-programmers/releases/download/0.3-alpha/category-theory-for-programmers.epub).
+**You can download the latest epub build** [**here**](https://github.com/onlurking/category-theory-for-programmers/releases/download/0.3-alpha/category-theory-for-programmers.epub) (the last chapter is **Monads Categorically**).
 
 ## Roadmap
 
@@ -31,7 +31,7 @@ This is an e-book version of Bartosz Milewski's [Category Theory for Programmers
 ### Part Three
 
 - [x] It’s All About Morphisms
-- [x] Adjunctions
+- [ ] Adjunctions (Issue [#2](https://github.com/onlurking/category-theory-for-programmers/issues/2))
 - [x] Free/Forgetful Adjunctions
 - [x] Monads: Programmer’s Definition
 - [x] Monads and Effects
@@ -52,3 +52,5 @@ This project is powered by [pandoc](https://pandoc.org/), evangoer's [pandoc-ebo
 ](https://github.com/evangoer/pandoc-ebook-template) and the CSS is somewhat based on [Standard Ebooks](https://standardebooks.org/contribute/a-basic-standard-ebooks-source-folder).
 
 All the credits go to the original [author](https://bartoszmilewski.com/about).
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
