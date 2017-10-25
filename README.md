@@ -2,6 +2,8 @@
 
 This is an e-book version of Bartosz Milewski's [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) work.
 
+<img src="about.jpg" width="90%" height="90%">
+
 **You can download the latest epub build** [**here**](https://github.com/onlurking/category-theory-for-programmers/releases/download/0.3-alpha/category-theory-for-programmers.epub) (the last chapter is **Monads Categorically**).
 
 ## Roadmap
