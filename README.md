@@ -38,9 +38,9 @@ This is an e-book version of Bartosz Milewski's [Category Theory for Programmers
 - [x] Monads: Programmer’s Definition
 - [x] Monads and Effects
 - [x] Monads Categorically
-- [ ] Comonads
-- [ ] F-Algebras
-- [ ] Algebras for Monads
+- [x] Comonads
+- [x] F-Algebras
+- [x] Algebras for Monads
 - [ ] Ends and Coends
 - [ ] Kan Extensions
 - [ ] Enriched Categories
