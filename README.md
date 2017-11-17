@@ -33,7 +33,7 @@ This is an e-book version of Bartosz Milewski's [Category Theory for Programmers
 ### Part Three
 
 - [x] It’s All About Morphisms
-- [ ] Adjunctions (Issue [#2](https://github.com/onlurking/category-theory-for-programmers/issues/2))
+- [x] Adjunctions
 - [x] Free/Forgetful Adjunctions
 - [x] Monads: Programmer’s Definition
 - [x] Monads and Effects
