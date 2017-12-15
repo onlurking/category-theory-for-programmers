@@ -4,7 +4,7 @@ TITLE = title.txt
 METADATA = metadata.xml
 STYLE = base.css
 LATEX = base.latex
-CHAPTERS = preface.md part_one/ch01.md part_one/ch02.md part_one/ch03.md part_one/ch04.md part_one/ch05.md part_one/ch06.md part_one/ch07.md part_one/ch08.md part_one/ch09.md part_one/ch10.md part_two/ch01.md part_two/ch02.md part_two/ch03.md part_two/ch04.md part_two/ch05.md part_two/ch06.md part_three/ch01.md part_three/ch02.md part_three/ch03.md part_three/ch04.md part_three/ch05.md part_three/ch06.md part_three/ch07.md part_three/ch08.md part_three/ch09.md
+CHAPTERS = preface.md part_one/ch01.md part_one/ch02.md part_one/ch03.md part_one/ch04.md part_one/ch05.md part_one/ch06.md part_one/ch07.md part_one/ch08.md part_one/ch09.md part_one/ch10.md part_two/ch01.md part_two/ch02.md part_two/ch03.md part_two/ch04.md part_two/ch05.md part_two/ch06.md part_three/ch01.md part_three/ch02.md part_three/ch03.md part_three/ch04.md part_three/ch05.md part_three/ch06.md part_three/ch07.md part_three/ch08.md part_three/ch09.md part_three/ch10.md part_three/ch11.md part_three/ch12.md part_three/ch13.md part_three/ch14.md part_three/ch15.md
 TOC = --toc --toc-depth=2
 COVER_IMAGE = images/beauvais_interior_supports.jpg
 LATEX_CLASS = report
@@ -24,7 +24,7 @@ pdf: $(BUILD)/pdf/$(BOOKNAME).pdf
 
 $(BUILD)/epub/$(BOOKNAME).epub: $(TITLE) $(CHAPTERS)
 	mkdir -p $(BUILD)/epub
-	pandoc $(TOC) -S --epub-metadata=$(METADATA) --epub-stylesheet=$(STYLE) --highlight-style pygments --epub-cover-image=$(COVER_IMAGE) -o $@ $^
+	pandoc $(TOC) -f markdown+smart --epub-metadata=$(METADATA) --css=$(STYLE) --highlight-style pygments --epub-cover-image=$(COVER_IMAGE) -o $@ $^
 
 $(BUILD)/html/$(BOOKNAME).html: $(CHAPTERS)
 	mkdir -p $(BUILD)/html
