@@ -4,7 +4,7 @@ This is an e-book version of Bartosz Milewski's [Category Theory for Programmers
 
 <img src="about.jpg" width="90%" height="90%">
 
-**You can download the latest epub build** [**here**](https://github.com/onlurking/category-theory-for-programmers/releases/download/0.3-alpha/category-theory-for-programmers.epub) (the last chapter is **Algebras for Monads**).
+**You can download the latest epub build** [**here**](https://github.com/onlurking/category-theory-for-programmers/releases/download/0.3-alpha/category-theory-for-programmers.epub) (the last chapter is **Monads, Monoids, and Categories**).
 
 ## Roadmap
 
@@ -41,12 +41,12 @@ This is an e-book version of Bartosz Milewski's [Category Theory for Programmers
 - [x] Comonads
 - [x] F-Algebras
 - [x] Algebras for Monads
-- [ ] Ends and Coends
-- [ ] Kan Extensions
-- [ ] Enriched Categories
-- [ ] Topoi
-- [ ] Lawvere Theories
-- [ ] Monads, Monoids, and Categories 
+- [x] Ends and Coends
+- [x] Kan Extensions
+- [x] Enriched Categories
+- [x] Topoi
+- [x] Lawvere Theories
+- [x] Monads, Monoids, and Categories 
 
 ## Credits
 
