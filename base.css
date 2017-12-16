@@ -113,6 +113,7 @@ samp,
 kbd {
     font-family: "Courier New", Courier, monospace;
     word-wrap: break-word;
+    font-size: 0.8em;
 }
 
 pre {
